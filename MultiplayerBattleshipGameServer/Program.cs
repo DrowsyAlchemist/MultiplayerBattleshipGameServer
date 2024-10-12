@@ -3,4 +3,4 @@ var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
 app.UseWelcomePage();
-app.Run()
+app.Run();
